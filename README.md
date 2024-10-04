@@ -31,7 +31,7 @@ Before running the project, make sure you have the following dependencies instal
 `git clone https://github.com/your-username/pdf-chat-api.git
 cd pdf-chat-api`
 ### 2. Create a Virtual Environment
-python3 -m venv venv
+python3 -m venv venv  
 source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 ### 3. Install Dependencies
 `pip install -r requirements.txt`
