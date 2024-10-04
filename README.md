@@ -54,11 +54,11 @@ curl -X POST "http://127.0.0.1:8000/v1/pdf" -F "file=@/home/pinar/pdf-chat-api/p
 #### Response:
 {"pdf_id":"ai-tecuci-WIRE.pdf"}  
 #### Chat with PDF  
- Method: POST  
-Endpoint: /v1/chat/{pdf_id}  
-Description: Send a message to chat with the content of a specific PDF.  
+#### Method: POST  
+#### Endpoint: /v1/chat/{pdf_id}  
+#### Description: Send a message to chat with the content of a specific PDF.  
 curl -X POST "http://127.0.0.1:8000/v1/chat/ai-tecuci-WIRE.pdf" -H "Content-Type: applicatiCan you show me the text content?."}'w me the text content?."}'  
-Response:
+#### Response:
 {
   "response": ".."
 }
