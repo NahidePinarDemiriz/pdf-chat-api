@@ -39,7 +39,7 @@ source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
 #### Create a .env file in the root directory and add your Google Gemini API key:
 `touch .env`
 #### In the .env file:
-GEMINI_API_KEY=AIzaSyDNE-Jpw15Gcstcg1eEDE1WqXrMUm-XmdQ
+GEMINI_API_KEY=GEMINI_KEY
 ### 5. Running the Application
 `uvicorn main:app --reload`
 #### The application will now be running at http://127.0.0.1:8000.
