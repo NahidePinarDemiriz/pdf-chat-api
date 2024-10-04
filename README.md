@@ -1,7 +1,7 @@
 # PDF Chat API
 
-PDF Chat API is a FastAPI application that allows users to upload and chat with PDF files. This project demonstrates the integration of external services (e.g., LLM API like Google Gemini) and efficient PDF content extraction for interactive conversations.
-Project Overview
+PDF Chat API is a FastAPI application that allows users to upload and chat with PDF files. This project demonstrates the integration of external services (e.g., LLM API like Google Gemini) and efficient PDF content extraction for interactive conversations.  
+### Project Overview
 
 This project showcases a RESTful API where users can:
 
