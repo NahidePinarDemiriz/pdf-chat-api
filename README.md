@@ -46,8 +46,8 @@ The application will now be running at http://127.0.0.1:8000.
 6. Endpoints
 Upload PDF
 
-    Method: POST
-    Endpoint: /v1/pdf
+    Method: POST \n
+    Endpoint: /v1/pdf\n
     Description: Upload a PDF file for processing.
 Example:
 curl -X POST "http://127.0.0.1:8000/v1/pdf" -F "file=@/home/pinar/pdf-chat-api/pdfs/ai-tecuci-WIRE.pdf"
