@@ -57,8 +57,10 @@ GEMINI_API_KEY=GEMINI_KEY
      Method: POST  
      Endpoint: /v1/chat/{pdf_id}  
      Description: Send a message to chat with the content of a specific PDF.  
-`curl -X POST "http://127.0.0.1:8000/v1/chat/ai-tecuci-WIRE.pdf" -H "Content-Type: applicatiCan you show me the text content?."}'w me the text content?."}'`
+`curl -X POST "http://127.0.0.1:8000/v1/chat/ai-tecuci-WIRE.pdf" \
+-H "Content-Type: application/json" \
+-d '{"message": "Can you show me the text content?"}'
+`
 #### Response:
-`{
-  "response": ".."
-}`
+`{"response":"Your question: Can you show me the text content?\nPDF Text: See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/pu..."}
+`
