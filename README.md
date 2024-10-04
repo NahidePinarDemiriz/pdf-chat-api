@@ -44,7 +44,7 @@ GEMINI_API_KEY=AIzaSyDNE-Jpw15Gcstcg1eEDE1WqXrMUm-XmdQ
 `uvicorn main:app --reload`
 The application will now be running at http://127.0.0.1:8000.
 6. Endpoints
-Upload PDF
+###Upload PDF
 
     Method: POST   
     Endpoint: /v1/pdf    
@@ -52,8 +52,8 @@ Upload PDF
 Example:
 curl -X POST "http://127.0.0.1:8000/v1/pdf" -F "file=@/home/pinar/pdf-chat-api/pdfs/ai-tecuci-WIRE.pdf"
 Response:
-{"pdf_id":"ai-tecuci-WIRE.pdf"}
-Chat with PDF  
+{"pdf_id":"ai-tecuci-WIRE.pdf"}  
+###Chat with PDF  
 Method: POST  
 Endpoint: /v1/chat/{pdf_id}  
 Description: Send a message to chat with the content of a specific PDF.  
